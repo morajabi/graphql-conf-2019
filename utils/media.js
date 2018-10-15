@@ -5,3 +5,9 @@ export const mobile = (...body) => css`
     ${body};
   }
 `
+
+export const desktop = (...body) => css`
+  @media (min-width: 1070px) {
+    ${body};
+  }
+`

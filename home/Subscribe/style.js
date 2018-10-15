@@ -1,7 +1,7 @@
 import styled, { css, keyframes } from 'styled-components'
 
 // Utils
-import { mobile } from '../../utils/mobile'
+import { mobile } from '../../utils/media'
 
 // Local
 import { WhiteButton } from '../../shared/WhiteButton'

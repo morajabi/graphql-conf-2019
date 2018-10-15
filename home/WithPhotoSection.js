@@ -3,7 +3,7 @@ import ReactImage from 'react-image'
 import styled, { css, ThemeProvider } from 'styled-components'
 
 // Utils
-import { mobile } from '../utils/mobile'
+import { mobile } from '../utils/media'
 
 // Local
 import { Container } from '../shared/Container'

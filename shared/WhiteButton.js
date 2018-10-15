@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components'
-import { mobile } from '../utils/mobile'
+import { mobile } from '../utils/media'
 
 const whiteButtonStyle = css`
   height: 90px;
@@ -31,6 +31,8 @@ const whiteButtonStyle = css`
 
   ${mobile(css`
     font-size: 22px;
+    height: 65px;
+    min-width: 200px;
   `)};
 `
 

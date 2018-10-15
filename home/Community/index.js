@@ -14,7 +14,7 @@ export const Community = () => (
     {({ Title, Description }) => (
       <>
         <Title>Join the GraphQL Conf Community!</Title>
-        <Description>
+        <Description addMarginTop>
           Join the official GraphQLConf Slack channel. This is your chance to
           meet your peers, organize informal chats and activities, or ask
           questions about the conference or Berlin.

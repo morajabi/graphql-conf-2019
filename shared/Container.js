@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { mobile } from '../utils/mobile'
+import { mobile } from '../utils/media'
 
 export const Container = styled.div`
   max-width: 1070px;

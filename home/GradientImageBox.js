@@ -2,7 +2,7 @@
 import styled, { css } from 'styled-components'
 
 // Utils
-import { mobile } from '../utils/mobile'
+import { mobile } from '../utils/media'
 
 export const GradientImageBox = styled.div`
   height: 345px;

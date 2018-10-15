@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components'
 
-import { mobile } from '../../utils/mobile'
+import { mobile } from '../../utils/media'
 
 export const FlexWrapper = styled.div`
   display: flex;

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "luxon": "^1.4.3",
     "next": "^7.0.2",
     "react": "^16.5.2",
     "react-confetti": "^2.3.0",

@@ -1,8 +1,8 @@
 import styled, { keyframes, css } from 'styled-components'
-import { mobile } from '../../utils/mobile'
+import { mobile } from '../../utils/media'
 
 export const Wrapper = styled.header`
-  background-color: black;
+  /* background-color: black; */
   background-image: url('/static/bg-blingbling.svg'),
     url('/static/patty-patty.svg');
   background-position: top center, center 450px;
@@ -10,6 +10,7 @@ export const Wrapper = styled.header`
   background-repeat: no-repeat;
 
   overflow: hidden;
+  width: 100vw;
   min-height: 825px;
 
   ${mobile(css`
@@ -48,6 +49,7 @@ export const Title = styled.div`
 
   ${mobile(css`
     font-size: 80px;
+    margin-top: 80px;
   `)};
 `
 
@@ -77,7 +79,7 @@ const spinning = keyframes`
 export const SpinningLogo = styled.div`
   position: relative;
   margin-left: -200px;
-  margin-top: 80px;
+  margin-top: 90px;
   z-index: 10;
 
   display: flex;
@@ -88,11 +90,11 @@ export const SpinningLogo = styled.div`
   transform-origin: center center;
 
   ${mobile(css`
-    width: 200px;
-    height: 200px;
+    width: 220px;
+    height: 220px;
 
-    margin-left: -100px;
-    margin-top: 140px;
+    margin-left: -70px;
+    margin-top: 165px;
   `)};
 `
 
